@@ -5,7 +5,7 @@
   font-family: "Poppins", serif;
 }
 
-a {
+a{
   text-decoration: none;
   display: inline-block;
 }
@@ -32,3 +32,29 @@ p {
     margin: 0 auto;
 }
 /* All Global Css End */
+
+/* Header Part Start */
+#headerPart{
+
+}
+
+.flexHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.headerName ul li{
+    display: inline-block;
+}
+.headerName ul li a{
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 0 36px;
+}
+.headerIcons{
+    display: flex;
+    column-gap: 45px;
+}
+/* Header Part End */
