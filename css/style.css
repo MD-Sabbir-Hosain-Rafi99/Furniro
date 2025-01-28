@@ -5,7 +5,7 @@
   font-family: "Poppins", serif;
 }
 
-a{
+a {
   text-decoration: none;
   display: inline-block;
 }
@@ -27,34 +27,81 @@ p {
   line-height: 0.8;
 }
 
-.container{
-    width: 1240px;
-    margin: 0 auto;
+.container {
+  width: 1240px;
+  margin: 0 auto;
 }
 /* All Global Css End */
 
 /* Header Part Start */
-#headerPart{
-    padding: 40px 0;
+#headerPart {
+  padding: 40px 0;
 }
 
-.flexHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flexHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.headerName ul li{
-    display: inline-block;
+.headerName ul li {
+  display: inline-block;
 }
-.headerName ul li a{
-    font-size: 16px;
-    font-weight: 600px;
-    padding: 0 36px;
+.headerName ul li a {
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 0 36px;
 }
-.iconFlex{
-    display: flex;
-    align-items: center;
-    column-gap: 45px;
+.iconFlex {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
 }
 /* Header Part End */
+
+/* Banner Part Start */
+#bannerPart {
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 155px;
+  padding-bottom: 115px;
+}
+.bannerContent{
+    background: #FFF3E3;
+    width: 50%;
+    margin-left: auto;
+    padding: 65px 75px 35px 38px;
+    border-radius: 10px;
+}
+
+.bannerText h4{
+    font-size: 16px;
+    font-weight: 123px;
+}
+.bannerText p{
+    font-size: 18px;
+    font-weight: 546px;
+    line-height: 25px;
+}
+.bannerText h1{
+    font-size: 52px;
+    font-weight: 700px;
+    line-height: 65px;
+    color: #B88E2F;
+    padding-right: 151px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+}
+.bannerButton a{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px 72px;
+    background: #B88E2F;
+    color: #fff;
+}
+.bannerButton{
+    padding-top: 45px;
+}
+/* Banner Part End */
