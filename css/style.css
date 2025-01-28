@@ -105,3 +105,33 @@ p {
     padding-top: 45px;
 }
 /* Banner Part End */
+
+/* Room Part Start */
+.roomContentText{
+    text-align: center;
+    padding-top: 65px;
+}
+.roomContentText h2{
+    font-size: 25px;
+}
+.roomContentText p{
+    font-size: 20px;
+    color: #666666;
+    padding-top: 25px;
+}
+
+.roomPhotos{
+    padding-top: 68px;
+}
+.flexRooms{
+    display: flex;
+    justify-content: space-around;
+}
+.roomOne{
+    text-align: center;
+}
+.roomOne h4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+/* Room Part End */
