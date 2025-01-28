@@ -35,14 +35,13 @@ p {
 
 /* Header Part Start */
 #headerPart{
-
+    padding: 40px 0;
 }
 
 .flexHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0;
 }
 
 .headerName ul li{
@@ -53,8 +52,9 @@ p {
     font-weight: 600px;
     padding: 0 36px;
 }
-.headerIcons{
+.iconFlex{
     display: flex;
+    align-items: center;
     column-gap: 45px;
 }
 /* Header Part End */
